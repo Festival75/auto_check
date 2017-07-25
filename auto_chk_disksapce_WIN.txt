@@ -1,0 +1,7 @@
+              14 Dir(s)     21724786688 bytes free
+               9 Dir(s)     33497587712 bytes free
+               3 Dir(s)    288011280384 bytes free
+              17 Dir(s)     15899541504 bytes free
+              21 Dir(s)    349980884992 bytes free
+               9 Dir(s)     20095008768 bytes free
+               8 Dir(s)     29431955456 bytes free
