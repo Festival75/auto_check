@@ -1,0 +1,15 @@
+{
+  "OST": ["TMN","TNO","DVMN","VSMN","NPK"],
+  "PATH":{
+    "WIN_SIZE": "resources/txt/",
+    "VWTOOL_SCREENSHOT": "resources/images/",
+    "XLS_FILE": "resources/xls/"
+  },
+  "TYPE":{
+    "EXEL": ".xls",
+    "WIN_SIZE": ".txt",
+    "VWTOOL_SCREENSHOT": ".PNG",
+    "VWTOOL_SCREENSHOT_ALT": ".png",
+    "INPUT_IMAGE": ".bmp"
+  }
+}

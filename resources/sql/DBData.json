@@ -1,0 +1,27 @@
+{
+  "TNO": {
+    "QUEUEITEM": 100,
+    "BATCHPARAM": 200,
+    "CONDUCTOR": 300
+  },
+  "TMN": {
+    "QUEUEITEM": 400,
+    "BATCHPARAM": 500,
+    "CONDUCTOR": 600
+  },
+  "DVMN": {
+    "QUEUEITEM": 700,
+    "BATCHPARAM": 800,
+    "CONDUCTOR": 900
+  },
+  "VSMN": {
+    "QUEUEITEM": 110,
+    "BATCHPARAM": 210,
+    "CONDUCTOR": 310
+  },
+  "NPK": {
+    "QUEUEITEM": 120,
+    "BATCHPARAM": 220,
+    "CONDUCTOR": 320
+  }
+}
