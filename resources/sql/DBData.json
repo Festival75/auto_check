@@ -1,27 +1,52 @@
 {
-  "TNO": {
-    "QUEUEITEM": 100,
-    "BATCHPARAM": 200,
-    "CONDUCTOR": 300
-  },
-  "TMN": {
-    "QUEUEITEM": 400,
-    "BATCHPARAM": 500,
-    "CONDUCTOR": 600
-  },
-  "DVMN": {
-    "QUEUEITEM": 700,
-    "BATCHPARAM": 800,
-    "CONDUCTOR": 900
-  },
   "VSMN": {
-    "QUEUEITEM": 110,
-    "BATCHPARAM": 210,
-    "CONDUCTOR": 310
+    "OSDB_QUEUEITEM": 0,
+    "ABBYYDB_BATCHPARAM": 0,
+    "OSDB_CONDUCTOR": 0
   },
   "NPK": {
-    "QUEUEITEM": 120,
-    "BATCHPARAM": 220,
-    "CONDUCTOR": 320
+    "OSDB_QUEUEITEM": 239,
+    "ABBYYDB_BATCHPARAM": 0,
+    "OSDB_CONDUCTOR": 4
+  },
+  "TNO": {
+    "OSDB_QUEUEITEM": 239,
+    "ABBYYDB_BATCHPARAM": 0,
+    "OSDB_CONDUCTOR": 4
+  },
+  "TMN": {
+    "OSDB_QUEUEITEM": 555,
+    "ABBYYDB_BATCHPARAM": 100,
+    "OSDB_CONDUCTOR": 23
+  },
+  "MPTNP": {
+    "OSDB_QUEUEITEM": 555,
+    "ABBYYDB_BATCHPARAM": 100,
+    "OSDB_CONDUCTOR": 23
+  },
+  "SPB": {
+    "OSDB_QUEUEITEM": 555,
+    "ABBYYDB_BATCHPARAM": 100,
+    "OSDB_CONDUCTOR": 23
+  },
+  "DVMN": {
+    "OSDB_QUEUEITEM": 0,
+    "ABBYYDB_BATCHPARAM": 0,
+    "OSDB_CONDUCTOR": 0
+  },
+  "TUR": {
+    "OSDB_QUEUEITEM": 0,
+    "ABBYYDB_BATCHPARAM": 0,
+    "OSDB_CONDUCTOR": 0
+  },
+  "CHTN": {
+    "OSDB_QUEUEITEM": 0,
+    "ABBYYDB_BATCHPARAM": 0,
+    "OSDB_CONDUCTOR": 0
+  },
+  "TNE": {
+    "OSDB_QUEUEITEM": 0,
+    "ABBYYDB_BATCHPARAM": 0,
+    "OSDB_CONDUCTOR": 0
   }
 }
