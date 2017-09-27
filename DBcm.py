@@ -1,5 +1,6 @@
 import cx_Oracle
-import pyodbc
+#import pyodbc
+import pymysql
 
 
 class UseDatabaseOracle:
@@ -27,7 +28,8 @@ class UseDatabaseMSSQL:
 
     def __enter__(self) -> 'cursor':
         """Initialize connection to DB and cursor"""
-        self.conn = pyodbc.connect(self.configuration)
+        self.conn = pymysql.connect(self.configuration)
+        #self.conn = pyodbc.connect(self.configuration)
         self.cursor = self.conn.cursor()
         return self.cursor
 
