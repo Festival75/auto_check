@@ -96,6 +96,24 @@ def get_win_space(config: dict):
             exit(0)
 
 
+def get_aix_space(config: dict):
+    """Собирате информацию о всех разделах AIX сервера, занятых более чем на 79%"""
+    try:
+        aixp = config['PATH']['AIX_COLLECT']
+        for ost in config['OST']:
+            hosts = config['ENV'][ost]['AIX_HOSTS']
+            for host in hosts:
+                os.system('pscp -q {0} root@{1}:/tmp'.format(aixp, host))
+                output = os.popen('plink root@{0} "/usr/bin/ksh /tmp/{1}'.format(host, aixp))
+                print(host)
+                print(output)
+            print('[+] AIX_Space {0} collected'.format(ost))
+            logging.info('[+] Информация о разделах серверов AIX {0} собрана'.format(ost))
+    except Exception as err:
+        logging.error('[-] Произошла ошибка в модуле get_aix_space: {0}'.format(str(err)))
+        exit(0)
+
+
 def write_sql_value_to_json(config: dict, ost: str, value: int, label: str):
     """Записать полученное значение в DBData.json, в зависимости от label"""
     try:
