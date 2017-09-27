@@ -95,14 +95,7 @@ ENV/
 # Rope project settings
 .ropeproject
 
-Будет удалено .idea/dataSources.local.xml
-Будет удалено .idea/dataSources/
-Будет удалено .idea/workspace.xml
-Будет удалено auto_check.7z
-Будет удалено resources/images/CHTN.PNG
-Будет удалено resources/images/MPTNP.PNG
-Будет удалено resources/images/SPB.PNG
-Будет удалено resources/images/TNE.PNG
-Будет удалено resources/images/TUR.PNG
-Будет удалено resources/xls/
-Будет удалено xls_bcp/
+
+/resources/
+/xls_bcp/
+/config.json
